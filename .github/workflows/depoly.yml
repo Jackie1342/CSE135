@@ -17,5 +17,6 @@ jobs:
           script: |
             cd test/public_html
             git pull
+            cd ..
             cp -r public_html/* /var/www/jackies.site/public_html
             echo 'Deployment successful to digital ocean' 
