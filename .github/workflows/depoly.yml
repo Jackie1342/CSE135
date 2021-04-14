@@ -16,5 +16,5 @@ jobs:
      
           script: |
             cd  /var/www/jackies.site
-            git clone https://github.com/Jackie1342/public_html.git
+            git pull
             echo 'Deployment successful to digital ocean' 
